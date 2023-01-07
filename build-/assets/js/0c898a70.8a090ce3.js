@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpiddle_99_github_io=self.webpackChunkpiddle_99_github_io||[]).push([[2524],{6438:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/piddle99.github.io/blog/tags/facebook","allTagsPath":"/piddle99.github.io/blog/tags","count":1}')}}]);
