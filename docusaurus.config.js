@@ -112,6 +112,10 @@ const config = {
             title: 'More',
             items: [
               {
+                logo: {
+                  alt: 'Blog Logo',
+                  src: 'img/logo.svg',
+                  },
                 label: 'Blog',
                 to: '/blog',
               },
@@ -122,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Max Tootleman.`,
+        copyright: `Copyright © ${new Date().getFullYear()} by Max Tootleman.`,
       },
       prism: {
         theme: lightCodeTheme,
