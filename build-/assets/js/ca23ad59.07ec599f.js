@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpiddle_99_github_io=self.webpackChunkpiddle_99_github_io||[]).push([[5643],{3001:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/piddle99.github.io/blog/tags/hello","allTagsPath":"/piddle99.github.io/blog/tags","count":2}')}}]);
