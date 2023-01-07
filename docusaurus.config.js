@@ -60,6 +60,10 @@ const config = {
     ({
       navbar: {
         title: 'Max Tootleman',
+        logo: {
+          alt: 'My Site Logo',
+            src: 'img/logo.svg',
+        },
         items: [
           {
             type: 'doc',
@@ -118,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Max Tootleman.`,
       },
       prism: {
         theme: lightCodeTheme,
