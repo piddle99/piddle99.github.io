@@ -66,7 +66,6 @@ const config = {
             position: 'left',
             label: 'Home',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             logo: {
               alt: 'Facebook Logo',
