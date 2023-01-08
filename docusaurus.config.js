@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Max Tootleman',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Actor/Director',
   url: 'https://piddle99.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+//  favicon: 'img/favicon.ico',
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -60,13 +60,9 @@ const config = {
     ({
       navbar: {
         title: 'Max Tootleman',
-        logo: {
-          alt: 'My Site Logo',
-            src: 'img/logo.svg',
-        },
         items: [
           {
-            to: '/index',
+            to: '/index.html',
             position: 'left',
             label: 'Home',
           },
