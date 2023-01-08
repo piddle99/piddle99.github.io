@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  trailingSlash: false,
+  trailingSlash: 'false',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -58,22 +58,6 @@ const config = {
           },
           {
             label: 'Resume',
-            position: 'left'
-          },
-          {
-            label: 'Acting',
-            position: 'left'
-          },
-          {
-            label: 'Directing',
-            position: 'left'
-          },
-          {
-            label: 'Gallery',
-            position: 'left'
-          },
-          {
-            label: 'Contact',
             position: 'left'
           },
         ],
