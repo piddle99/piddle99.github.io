@@ -68,8 +68,30 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            logo: {
+              alt: 'Facebook Logo',
+                src: 'img/Facebook_Logo.png',
+            },
+            href: 'https://facebook.com/max.tootleman',
+            label: 'Facebook',
+            position: 'right',
+          },
+          {
+            logo: {
+              alt: 'Instagram Logo',
+                src: 'img/Instagram_Logo.png',
+            },
+            href: 'https://instagram.com/maxtootleman',
+            label: 'Instragram',
+            position: 'right',
+          },
+          {
+            logo: {
+              alt: 'LinkedIn Logo',
+                src: 'img/LinkedIn_Logo.png',
+            },
+            href: 'https://LinkedIn.com/max-tootleman',
+            label: 'Facebook',
             position: 'right',
           },
         ],
