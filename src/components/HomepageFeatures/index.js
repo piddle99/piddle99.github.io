@@ -4,14 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'About',
-    Svg: require('@site/static/img/Max-Tootleman-Headshot.jpg').default,
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Max Tootleman is an Actor/Director located in the NJ/NY area.  He graduated Cum Laude from Fairleigh Dickinson University with his B.A. in Acting and Directing.
-        Max has loved theater since he saw his first Broadway show at the age of 5 and stood up on the mezzanine, singing along to every song from Little Shop of Horrors.
-        Max has a passion for creating stories and finding new ways to share them with the world.
-        When he is not on stage, he can be found crafting something, hanging with friends, or reading.
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
