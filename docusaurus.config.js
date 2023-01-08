@@ -57,34 +57,24 @@ const config = {
             label: 'Home',
           },
           {
-            to: '/resume',
             label: 'Resume',
             position: 'left'
           },
           {
-            to: '/acting',
             label: 'Acting',
             position: 'left'
           },
           {
-            to: '/directing',
             label: 'Directing',
             position: 'left'
           },
           {
-            to: '/gallery',
             label: 'Gallery',
             position: 'left'
           },
           {
-            to: '/contact',
             label: 'Contact',
             position: 'left'
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
