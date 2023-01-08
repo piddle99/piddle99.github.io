@@ -66,7 +66,7 @@ const config = {
         },
         items: [
           {
-            to: '/index.html',
+            href: 'https://piddle99.github.io',
             position: 'left',
             label: 'Home',
           },
