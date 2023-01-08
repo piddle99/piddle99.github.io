@@ -66,10 +66,9 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: 'index.html',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Home',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -112,10 +111,6 @@ const config = {
             title: 'More',
             items: [
               {
-                logo: {
-                  alt: 'Blog Logo',
-                  src: 'img/logo.svg',
-                  },
                 label: 'Blog',
                 to: '/blog',
               },
