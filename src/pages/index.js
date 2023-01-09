@@ -30,12 +30,19 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main className='main'>
+        <div className='pic'>
+          <img src={DocusaurusImageUrl} alt="Max-Tootleman-Headshot" />
+        </div>
+        <p className="bio">Max Tootleman is an actor/director located in the NJ/NY area.  He attended Fairleigh Dickinson University where he received a BA in Acting and Directing.  
+          Max has loved theater since he saw his first Broadway show at the age of 5 and stood up on the mezzanine singing alnog to every song of Little Shop of Horrors.  
+          Max has always loved creating stories and finding new ways to share them with the world.  When he is not on stage, he is crafting something, hanging with friends, or making something new.</p>
       </main>
+      <br></br>
+      <br></br>
     </Layout>
   );
 }
