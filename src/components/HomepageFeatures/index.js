@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const FeatureList = [
 /*  {
@@ -36,16 +37,14 @@ const FeatureList = [
 ];
 
 function Feature({Svg, title, description}) {
+  const {siteConfig} = useDocusaurusContext() ;
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <header className={clsx('', styles.heroBanner)}>
+    <div className={"container"}>
+      <h1 className="hero_title">{siteConfig.title}</h1>
+      <p className="hero_subtitle">{siteConfig.tagline}</p>
       </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
+    </header>
   );
 }
 
