@@ -35,7 +35,7 @@ export default function Home() {
       <HomepageHeader />
       <main className='main'>
         <div className='pic'>
-          <img src={DocusaurusImageUrl} alt="Max-Tootleman-Headshot" />
+          <img alt= "Headshot" src= "/img/Max-Tootleman-Headshot.png" />
         </div>
         <p className="bio">Max Tootleman is an actor/director located in the NJ/NY area.  He attended Fairleigh Dickinson University where he received a BA in Acting and Directing.  
           Max has loved theater since he saw his first Broadway show at the age of 5 and stood up on the mezzanine singing alnog to every song of Little Shop of Horrors.  
